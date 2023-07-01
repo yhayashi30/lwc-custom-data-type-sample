@@ -1,2 +1,3 @@
 # LWC Custom Data Type Sanple
-https://wordpress-heroku-yhayashi30-23.s3.amazonaws.com/uploads/2023/07/Screen-Recording-2023-07-01-at-21.37.18.mov
+https://github.com/yhayashi30/lwc-custom-data-type-sample/assets/22233591/9b50ea3f-ee88-4da1-b40c-c75f239321f0
+
