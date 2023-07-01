@@ -1,0 +1,17 @@
+<template>
+    <template lwc:if={records}>
+        <lightning-modal-header label="RelatedList"></lightning-modal-header>
+        <lightning-modal-body>
+            <lightning-datatable
+                key-field="Id"
+                data={records}
+                columns={columns}
+                show-row-number-column
+                hide-checkbox-column>
+            </lightning-datatable>
+        </lightning-modal-body>
+        <lightning-modal-footer>
+            <lightning-button label="OK" onclick={handleOkay}></lightning-button>
+        </lightning-modal-footer>
+    </template>
+</template>

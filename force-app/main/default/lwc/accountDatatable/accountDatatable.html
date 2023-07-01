@@ -1,0 +1,13 @@
+<template>
+  <template lwc:if={accounts}>
+    <c-datatable-Button-type
+      data={accounts}
+      columns={columns}
+      ondetailrow={detailRow}
+      onrelatedlistrow={relatedListRow}
+      key-field="Id"
+      hide-checkbox-column
+    >
+    </c-datatable-Button-type>
+  </template>
+</template>
